@@ -15,9 +15,9 @@ FF9B6A
 }
 
 body {
-  background-color: #161e54;
+  background-color: #ff9c6a4f;
   font-family: "Archivo Narrow", sans-serif;
-  color: #ff9b6a;
+  color: #161e54;
 }
 
 a {
@@ -70,7 +70,7 @@ li {
 #hero-content {
   width: 500px;
   background-color: #ff9c6a23;
-  box-shadow: 2px 4px 8px rgba(245, 245, 220, 0.575);
+  box-shadow: 2px 4px 8px #161e5493;
   text-align: center;
   border-radius: 10px;
   padding: 50px 0;
@@ -95,4 +95,41 @@ li {
 
 #hero-content a:hover {
   filter: brightness(1.5);
+}
+
+#highlights h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 24px 0;
+}
+
+#destinations {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination img {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 4px 8px #161e5493;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(123, 123, 123);
+}
+
+.destination strong {
+  color: #88e0ef;
 }
